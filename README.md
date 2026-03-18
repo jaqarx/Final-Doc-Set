@@ -9,8 +9,20 @@ I created this project to teach myself the basics of computer vision, practice h
 * Basic Python programming (know what variables, functions, and loops are)  
 * How to create and edit files in Visual Studio Code
 
-| Table of Contents Introduction Robotics Introduction Technical Details Hardware Sensors Computer Chassis Motors Software Computer Vision Motor Actuation Software Development Environment  | Related Documents Required Materials Setting up the Hardware Setting up the Rasp Pi Setting up the Robot’s Vision Setting up the “Ear Motors” |
-| ----- | ----- |
+| Table of Contents | Related Documents |
+|---|---|
+| [Introduction](#) | [Required Materials](#) |
+| [Robotics Introduction](#) | [Setting up the Hardware](#) |
+| [Technical Details](#) | [Setting up the Rasp Pi](#) |
+| **Hardware** | [Setting up the Robot's Vision](#) |
+| &nbsp;&nbsp;[Sensors](#) | [Setting up the "Ear Motors"](#) |
+| &nbsp;&nbsp;[Computer](#) | |
+| &nbsp;&nbsp;[Chassis](#) | |
+| &nbsp;&nbsp;[Motors](#) | |
+| **Software** | |
+| &nbsp;&nbsp;[Computer Vision](#) | |
+| &nbsp;&nbsp;[Motor Actuation](#) | |
+| [Software Development Environment](#) | |
 
 ### **Robotics Introduction**
 
