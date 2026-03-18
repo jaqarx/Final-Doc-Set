@@ -11,11 +11,11 @@ I created this project to teach myself the basics of computer vision, practice h
 
 | Table of Contents | Related Documents |
 |---|---|
-| [Introduction](#) | [Required Materials](Required%Materials.md) |
-| [Robotics Introduction](#) | [Setting up the Hardware](Setting%Up%the%Hardware.md) |
-| [Technical Details](#) | [Setting up the Raspberry Pi and the Raspberry Pi Camera]("Setting%Up%the%Raspberry%Pi%and%the%Raspberry%Pi%Camera.md) |
-| **Hardware** | [Setting up the Robot's Vision](Setting%20Up%20the%20Robot's%20Vision.md) |
-| &nbsp;&nbsp;[Sensors](#) | [Setting up the "Ear Motors"](Setting%20Up%20the%20"Ear"%20Motors.md) |
+| [Introduction](#) | [Required Materials](RequiredMaterials.md) |
+| [Robotics Introduction](#) | [Setting up the Hardware](SettingUptheHardware.md) |
+| [Technical Details](#) | [Setting up the Raspberry Pi and the Raspberry Pi Camera]("SettingUpTheRaspberryPiAndTheRaspberryPiCamera.md) |
+| **Hardware** | [Setting up the Robot's Vision](SettingUpTheRobot'sVision.md) |
+| &nbsp;&nbsp;[Sensors](#) | [Setting up the "Ear Motors"](SettingUpThe"Ear"Motors.md) |
 | &nbsp;&nbsp;[Computer](#) | [Frequently Answered Questions](FAQ.md) |
 | &nbsp;&nbsp;[Chassis](#) | |
 | &nbsp;&nbsp;[Motors](#) | |
