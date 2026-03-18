@@ -16,7 +16,7 @@ I created this project to teach myself the basics of computer vision, practice h
 | [Technical Details](#) | [Setting up the Rasp Pi](#) |
 | **Hardware** | [Setting up the Robot's Vision](#) |
 | &nbsp;&nbsp;[Sensors](#) | [Setting up the "Ear Motors"](#) |
-| &nbsp;&nbsp;[Computer](#) | [Frequently Answered Questions](FAQ.md)|
+| &nbsp;&nbsp;[Computer](#) | [Frequently Answered Questions](FAQ.md) |
 | &nbsp;&nbsp;[Chassis](#) | |
 | &nbsp;&nbsp;[Motors](#) | |
 | **Software** | |
