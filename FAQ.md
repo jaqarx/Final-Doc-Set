@@ -49,7 +49,7 @@ The Raspberry Pi processes the camera feed frame by frame, running face detectio
 
 **Why do the ears jitter or twitch when nothing is happening?** 
 
-Jitter is usually caused by electrical noise passing through the servo signal wire, which happens because electricity doesn’t flow smoothly. Smaller electronics are especially susceptible to noise. Jitter due to noise can be mitigated by adding small 220 to 470 ohm resistors, which help dampen the noise passing through to the signal wire.
+Jitter is usually caused by electrical noise passing through the servo signal wire, which happens because electricity doesn’t flow smoothly. Smaller electronics are especially susceptible to noise. Jitter due to noise can be mitigated by adding small 220 - 470 ohm resistors, which help dampen the noise passing through to the signal wire.
 
 ---
 
