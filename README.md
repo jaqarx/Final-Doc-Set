@@ -13,9 +13,9 @@ I created this project to teach myself the basics of computer vision, practice h
 |---|---|
 | [Introduction](#) | [Required Materials](RequiredMaterials.md) |
 | [Robotics Introduction](#) | [Setting up the Hardware](SettingUptheHardware.md) |
-| [Technical Details](#) | [Setting up the Raspberry Pi and the Raspberry Pi Camera]("SettingUpTheRaspberryPiAndTheRaspberryPiCamera.md) |
+| [Technical Details](#) | [Setting up the Raspberry Pi and the Raspberry Pi Camera](SettingUpTheRaspberryPiAndTheRaspberryPiCamera.md) |
 | **Hardware** | [Setting up the Robot's Vision](SettingUpTheRobot'sVision.md) |
-| &nbsp;&nbsp;[Sensors](#) | [Setting up the "Ear Motors"](SettingUpThe"Ear"Motors.md) |
+| &nbsp;&nbsp;[Sensors](#) | [Setting up the "Ear Motors"](SettingUpTheEarMotors.md) |
 | &nbsp;&nbsp;[Computer](#) | [Frequently Answered Questions](FAQ.md) |
 | &nbsp;&nbsp;[Chassis](#) | |
 | &nbsp;&nbsp;[Motors](#) | |
