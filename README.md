@@ -13,12 +13,12 @@ I created this project to teach myself the basics of computer vision, practice h
 
 | Table of Contents | Related Documents |
 |---|---|
-| [Introduction](#introduction) | [Required Materials](RequiredMaterials.md) |
-| [Robotics Introduction](<#robotics-introduction>) | [Setting up the Hardware](SettingUptheHardware.md) |
-| [Technical Details](<#technical-details>) | [Setting up the Raspberry Pi and the Raspberry Pi Camera](SettingUpTheRaspberryPiAndTheRaspberryPiCamera.md) |
-| **[Hardware](#hardware)** | [Setting up the Robot's Vision](SettingUpTheRobot'sVision.md) |
-| &nbsp;&nbsp;[Sensors](#sensors) | [Setting up the "Ear Motors"](SettingUpTheEarMotors.md) |
-| &nbsp;&nbsp;[Computer](#computer) | [Frequently Answered Questions](FAQ.md) |
+| [Introduction](#introduction) | [Required Materials](required-materials.md) |
+| [Robotics Introduction](<#robotics-introduction>) | [Setting up the Hardware](hardware-set-up.md) |
+| [Technical Details](<#technical-details>) | [Setting up the Raspberry Pi and the Raspberry Pi Camera](rasp-pi-set-up.md) |
+| **[Hardware](#hardware)** | [Setting up the Robot's Vision](robot-vision.md) |
+| &nbsp;&nbsp;[Sensors](#sensors) | [Setting up the "Ear Motors"](ear-motors.md) |
+| &nbsp;&nbsp;[Computer](#computer) | [Frequently Answered Questions](faq.md) |
 | &nbsp;&nbsp;[Chassis](#chassis) | |
 | &nbsp;&nbsp;[Motors](#motors) | |
 | **[Software](#software)** | |
