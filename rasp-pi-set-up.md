@@ -6,9 +6,9 @@
 
 | Table of Contents | Related Documents |
 |---|---|
-| [Overview](#overview) | [Required Materials](required-materials.md) |
-| [Setting Up the Raspberry Pi](#setting-up-the-raspberry-pi) | [Setting up the Hardware](hardware-set-up.md) |
-| [Installing the Raspberry Pi’s Camera](#installing-the-raspberry-pis-camera) | [Setting up the Raspberry Pi and the Raspberry Pi Camera](rasp-pi-set-up.md) |
+| [Overview](#overview) | [Building a Creature-like, Face-Detection Robot Using Raspberry Pi (Home Page)](README.md) |
+| [Setting Up the Raspberry Pi](#setting-up-the-raspberry-pi) | [Required Materials](required-materials.md) |
+| [Installing the Raspberry Pi’s Camera](#installing-the-raspberry-pis-camera) | [Setting up the Hardware](hardware-set-up.md) |
 | [Installing VSCode on the Raspberry Pi](#installing-vscode-on-the-raspberry-pi) | [Setting up the Robot's Vision](robot-vision.md) |
 | | [Setting up the "Ear Motors"](ear-motors.md) |
 | | [Frequently Answered Questions](faq.md) |

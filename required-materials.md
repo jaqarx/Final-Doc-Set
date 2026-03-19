@@ -4,7 +4,7 @@ This document contains references to all the materials required to create this p
 
 | Table of Contents | Related Documents |
 |---|---|
-| [Hardware](#hardware) | [Required Materials](required-materials.md) |
+| [Hardware](#hardware) | [Building a Creature-like, Face-Detection Robot Using Raspberry Pi (Home Page)](README.md) |
 | [Software](#software) | [Setting up the Hardware](hardware-set-up.md) |
 | | [Setting up the Raspberry Pi and the Raspberry Pi Camera](rasp-pi-set-up.md) |
 | | [Setting up the Robot's Vision](robot-vision.md) |

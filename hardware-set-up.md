@@ -6,8 +6,8 @@
 
 | Table of Contents | Related Documents |
 |---|---|
-| [Overview](#overview) | [Required Materials](required-materials.md) |
-| [Assembling the “Head” of the Robot](#assembling-the-head-of-the-robot) | [Setting up the Hardware](hardware-set-up.md) |
+| [Overview](#overview) | [Building a Creature-like, Face-Detection Robot Using Raspberry Pi (Home Page)](README.md) |
+| [Assembling the “Head” of the Robot](#assembling-the-head-of-the-robot) | [Required Materials](required-materials.md) |
 | [Wiring the Servos](#wiring-the-servos) | [Setting up the Raspberry Pi and the Raspberry Pi Camera](rasp-pi-set-up.md) |
 | | [Setting up the Robot's Vision](robot-vision.md) |
 | | [Setting up the "Ear Motors"](ear-motors.md) |
