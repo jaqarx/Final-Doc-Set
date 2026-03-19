@@ -14,17 +14,17 @@ I created this project to teach myself the basics of computer vision, practice h
 | Table of Contents | Related Documents |
 |---|---|
 | [Introduction](#Introduction) | [Required Materials](RequiredMaterials.md) |
-| [Robotics Introduction](#Robotics%20Introduction) | [Setting up the Hardware](SettingUptheHardware.md) |
-| [Technical Details](#Technical%20Details) | [Setting up the Raspberry Pi and the Raspberry Pi Camera](SettingUpTheRaspberryPiAndTheRaspberryPiCamera.md) |
+| [Robotics Introduction](<#Robotics Introduction>) | [Setting up the Hardware](SettingUptheHardware.md) |
+| [Technical Details](<#Technical Details>) | [Setting up the Raspberry Pi and the Raspberry Pi Camera](SettingUpTheRaspberryPiAndTheRaspberryPiCamera.md) |
 | **[Hardware](#Hardware)** | [Setting up the Robot's Vision](SettingUpTheRobot'sVision.md) |
 | &nbsp;&nbsp;[Sensors](#Sensors) | [Setting up the "Ear Motors"](SettingUpTheEarMotors.md) |
 | &nbsp;&nbsp;[Computer](#Computer) | [Frequently Answered Questions](FAQ.md) |
 | &nbsp;&nbsp;[Chassis](#Chassis) | |
 | &nbsp;&nbsp;[Motors](#Motors) | |
 | **[Software](#Software)** | |
-| &nbsp;&nbsp;[Computer Vision](#Computer%20Vision) | |
-| &nbsp;&nbsp;[Motor Actuation](#Motor%20ctuation) | |
-| [Software Development Environment](#Software%20Development%20Environment) | |
+| &nbsp;&nbsp;[Computer Vision](<#Computer Vision>) | |
+| &nbsp;&nbsp;[Motor Actuation](<#Motor Actuation>) | |
+| [Software Development Environment](<#Software Development Environment>) | |
 
 ### **Robotics Introduction**
 
