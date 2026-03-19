@@ -1,16 +1,5 @@
 # **Building a Creature-like, Face-Detection Robot Using Raspberry Pi**
 
-## **Introduction**
-
-I created this project to teach myself the basics of computer vision, practice hardware and software integration, and express my love for robotics and creatures. This guide is designed for beginner to intermediate programmers who want to gain hands-on skills by building their own version of this robot.
-
-![][image1]
-
-**What you’ll need to know:**
-
-* Basic Python programming (know what variables, functions, and loops are)  
-* How to create and edit files in Visual Studio Code
-
 | Table of Contents | Related Documents |
 |---|---|
 | [Introduction](#introduction) | [Required Materials](required-materials.md) |
@@ -25,6 +14,17 @@ I created this project to teach myself the basics of computer vision, practice h
 | &nbsp;&nbsp;[Computer Vision](<#computer-vision>) | |
 | &nbsp;&nbsp;[Motor Actuation](<#motor-actuation>) | |
 | [Software Development Environment](<#software-development-environment>) | |
+
+## **Introduction**
+
+I created this project to teach myself the basics of computer vision, practice hardware and software integration, and express my love for robotics and creatures. This guide is designed for beginner to intermediate programmers who want to gain hands-on skills by building their own version of this robot.
+
+![][image1]
+
+**What you’ll need to know:**
+
+* Basic Python programming (know what variables, functions, and loops are)  
+* How to create and edit files in Visual Studio Code
 
 ### **Robotics Introduction**
 

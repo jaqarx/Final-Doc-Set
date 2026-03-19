@@ -2,6 +2,15 @@
 
 This document contains references to all the materials required to create this project.
 
+| Table of Contents | Related Documents |
+|---|---|
+| [Hardware](#hardware) | [Required Materials](required-materials.md) |
+| [Software](#software) | [Setting up the Hardware](hardware-set-up.md) |
+| | [Setting up the Raspberry Pi and the Raspberry Pi Camera](rasp-pi-set-up.md) |
+| | [Setting up the Robot's Vision](robot-vision.md) |
+| | [Setting up the "Ear Motors"](ear-motors.md) |
+| | [Frequently Answered Questions](faq.md) |
+
 ### **Hardware**
 
 | Material Name | Specific Model / Requirements  (if applicable) | Link I Purchased From | Notes |

@@ -4,6 +4,15 @@
 
 **The components on the Raspberry Pi and camera module are delicate, so handle them both with care.**
 
+| Table of Contents | Related Documents |
+|---|---|
+| [Overview](#overview) | [Required Materials](required-materials.md) |
+| [Assembling the “Head” of the Robot](#assembling-the-head-of-the-robot) | [Setting up the Hardware](hardware-set-up.md) |
+| [Wiring the Servos](#wiring-the-servos) | [Setting up the Raspberry Pi and the Raspberry Pi Camera](rasp-pi-set-up.md) |
+| | [Setting up the Robot's Vision](robot-vision.md) |
+| | [Setting up the "Ear Motors"](ear-motors.md) |
+| | [Frequently Answered Questions](faq.md) |
+
 ## **Overview**
 
 This tutorial is intended for anyone building this robot project, regardless of their prior experience. Since the hardware assembly is specific to this project's 3D printed parts and components, the steps below are designed to be followed exactly as written.

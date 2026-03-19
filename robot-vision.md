@@ -1,5 +1,14 @@
 # **Setting Up the Robot’s Vision**
 
+| Table of Contents | Related Documents |
+|---|---|
+| [Overview](#overview) | [Required Materials](required-materials.md) |
+| [Installing the Required Packages](#installing-the-required-packages) | [Setting up the Hardware](hardware-set-up.md) |
+| [Setting Up the Face Detection Script](#setting-up-the-face-detection-script)| [Setting up the Raspberry Pi and the Raspberry Pi Camera](rasp-pi-set-up.md) |
+| [Final Script and Program Testing](#final-script-and-program-testing) | [Setting up the Robot's Vision](robot-vision.md) |
+| | [Setting up the "Ear Motors"](ear-motors.md) |
+| | [Frequently Answered Questions](faq.md) |
+
 ## **Overview**
 
 This tutorial is intended for both intermediate and beginner programmers who have already set up their Raspberry Pi 5 and camera module. You should be comfortable running commands in the terminal and have a basic understanding of Python syntax, such as variables, loops, and functions.

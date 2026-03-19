@@ -4,6 +4,15 @@
 
 **The components on the Raspberry Pi and camera module are delicate, so handle them both with care.**
 
+| Table of Contents | Related Documents |
+|---|---|
+| [Overview](#overview) | [Required Materials](required-materials.md) |
+| [Setting Up the Raspberry Pi](#setting-up-the-raspberry-pi) | [Setting up the Hardware](hardware-set-up.md) |
+| [Installing the Raspberry Pi’s Camera](#installing-the-raspberry-pis-camera) | [Setting up the Raspberry Pi and the Raspberry Pi Camera](rasp-pi-set-up.md) |
+| [Installing VSCode on the Raspberry Pi](#installing-vscode-on-the-raspberry-pi) | [Setting up the Robot's Vision](robot-vision.md) |
+| | [Setting up the "Ear Motors"](ear-motors.md) |
+| | [Frequently Answered Questions](faq.md) |
+
 ## **Overview**
 
 This tutorial is intended for users who do not have experience setting up a Raspberry Pi 5 or its camera. You should be comfortable navigating a desktop interface, but no prior experience with the terminal is required (all commands you need to run will be provided).
