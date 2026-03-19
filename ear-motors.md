@@ -48,9 +48,10 @@ from time import sleep
 
 3) **Initialize the left and right ear motors using the code below.**  
    
-
+```
 leftEar \= AngularServo(14, min\_angle\=-90, max\_angle\=90, min\_pulse\_width\=0.5/1000, max\_pulse\_width\=2.5/1000)  
 rightEar \= AngularServo(18, min\_angle\=-90, max\_angle\=90, min\_pulse\_width\=0.5/1000, max\_pulse\_width\=2.5/1000)
+```
 
 This creates two servo objects, one for each ear, and tells the Raspberry Pi how to communicate with them. Here is what each parameter does:
 
@@ -60,6 +61,7 @@ This creates two servo objects, one for each ear, and tells the Raspberry Pi how
 
 4) **Define the functions below**
 
+```
 def servoAngle(servo, angle):  
    servo.angle \= angle
 
@@ -68,6 +70,7 @@ def servoRun():
    servoAngle(leftEar, angle)  
    angle2 \= int(input("Enter angle for right ear (0 to 180): "))  
    servoAngle(rightEar, angle2)
+```
 
 `servoAngle()` is the core function for controlling the ears. It takes in a servo object and a target angle, then moves the servo to that angle. You will call this function from `robotFunctions.py` later to move the ears in response to face detection.
 
@@ -75,7 +78,7 @@ def servoRun():
 
 5) **Make a call to the `servoRun()` function at the bottom of the script**
 
-servoRun()
+`servoRun()`
 
 ## **Testing the Program**
 
@@ -89,11 +92,14 @@ servoRun()
 
 **At the top of `robotFunctions.py`, import the following:**
 
+```
 from gpiozero import AngularServo  
 from servoMovement import servoAngle, leftEar, rightEar
+```
 
 **Replace the if else block in `robotFunctions.py` with the code below.** Take notice of the calls to the servoAngle function you defined in servoMovement.py
 
+```
 if len(faces) \> 0:
 
            servoAngle(leftEar, \-90)  
@@ -109,6 +115,7 @@ if len(faces) \> 0:
            servoAngle(rightEar, 20)  
            cv2.putText(frame, "No face", (10, 30),  
                       cv2.FONT\_HERSHEY\_SIMPLEX, 1, (0, 0, 255), 2)
+```
 
 **Save the file and then run `python robotFunctions.py` in the terminal.** 
 
