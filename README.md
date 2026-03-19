@@ -19,7 +19,7 @@
 
 I created this project to teach myself the basics of computer vision, practice hardware and software integration, and express my love for robotics and creatures. This guide is designed for beginner to intermediate programmers who want to gain hands-on skills by building their own version of this robot.
 
-![][image1]
+![][image1]{: width="600" }
 
 **What you’ll need to know:**
 
@@ -57,7 +57,6 @@ For this project, the hardware can be broken into 4 main components: sensors, co
 
 Sensors allow robots to receive information about their physical environment. For this project, a camera module acts as the robot's "eyes," capturing live video feed to be checked for faces.
 
-#### 
 
 #### **Computer**
 
