@@ -19,7 +19,7 @@
 
 I created this project to teach myself the basics of computer vision, practice hardware and software integration, and express my love for robotics and creatures. This guide is designed for beginner to intermediate programmers who want to gain hands-on skills by building their own version of this robot.
 
-![][image1]{: width="600" }
+![][image1]{: style="max-width: 600px; height: auto;" }
 
 **What you’ll need to know:**
 
