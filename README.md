@@ -13,18 +13,18 @@ I created this project to teach myself the basics of computer vision, practice h
 
 | Table of Contents | Related Documents |
 |---|---|
-| [Introduction](#Introduction) | [Required Materials](RequiredMaterials.md) |
-| [Robotics Introduction](<#Robotics Introduction>) | [Setting up the Hardware](SettingUptheHardware.md) |
-| [Technical Details](<#Technical Details>) | [Setting up the Raspberry Pi and the Raspberry Pi Camera](SettingUpTheRaspberryPiAndTheRaspberryPiCamera.md) |
-| **[Hardware](#Hardware)** | [Setting up the Robot's Vision](SettingUpTheRobot'sVision.md) |
-| &nbsp;&nbsp;[Sensors](#Sensors) | [Setting up the "Ear Motors"](SettingUpTheEarMotors.md) |
-| &nbsp;&nbsp;[Computer](#Computer) | [Frequently Answered Questions](FAQ.md) |
-| &nbsp;&nbsp;[Chassis](#Chassis) | |
-| &nbsp;&nbsp;[Motors](#Motors) | |
-| **[Software](#Software)** | |
-| &nbsp;&nbsp;[Computer Vision](<#Computer Vision>) | |
-| &nbsp;&nbsp;[Motor Actuation](<#Motor Actuation>) | |
-| [Software Development Environment](<#Software Development Environment>) | |
+| [Introduction](#introduction) | [Required Materials](RequiredMaterials.md) |
+| [Robotics Introduction](<#robotics-introduction>) | [Setting up the Hardware](SettingUptheHardware.md) |
+| [Technical Details](<#technical-details>) | [Setting up the Raspberry Pi and the Raspberry Pi Camera](SettingUpTheRaspberryPiAndTheRaspberryPiCamera.md) |
+| **[Hardware](#hardware)** | [Setting up the Robot's Vision](SettingUpTheRobot'sVision.md) |
+| &nbsp;&nbsp;[Sensors](#sensors) | [Setting up the "Ear Motors"](SettingUpTheEarMotors.md) |
+| &nbsp;&nbsp;[Computer](#computer) | [Frequently Answered Questions](FAQ.md) |
+| &nbsp;&nbsp;[Chassis](#chassis) | |
+| &nbsp;&nbsp;[Motors](#motors) | |
+| **[Software](#software)** | |
+| &nbsp;&nbsp;[Computer Vision](<#computer-vision>) | |
+| &nbsp;&nbsp;[Motor Actuation](<#motor-actuation>) | |
+| [Software Development Environment](<#software-development-environment>) | |
 
 ### **Robotics Introduction**
 
