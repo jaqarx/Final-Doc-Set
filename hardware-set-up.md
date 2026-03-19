@@ -1,6 +1,6 @@
 # **Setting Up the Hardware**
 
-**<mark>WARNING: Before handling the Raspberry Pi or its camera, make sure you aren’t statically charged by touching [grounded metal](https://www.wikihow.com/Ground-Yourself). Static charge may damage the small components on the Raspberry Pi or its camera.</mark>**
+**==WARNING: Before handling the Raspberry Pi or its camera, make sure you aren’t statically charged by touching [grounded metal](https://www.wikihow.com/Ground-Yourself). Static charge may damage the small components on the Raspberry Pi or its camera.==**
 
 **The components on the Raspberry Pi and camera module are delicate, so handle them both with care.**
 
@@ -115,7 +115,7 @@ This ensures the power provided by the breadboard’s positive terminals is 5V. 
 
 4) **Turn on the power module by pressing the on/off switch. Once the power module is on, the indicator LED light should turn green.**
 
-**<mark>WARNING: Leave the power module off while wiring the servos to prevent damage to components.</mark>**
+**==WARNING: Leave the power module off while wiring the servos to prevent damage to components.==**
 
 ![][image14]
 Photo by [Hackatronic](https://www.hackatronic.com/raspberry-pi-5-pinout-specifications-pricing-a-complete-guide/)
@@ -144,7 +144,7 @@ Once you’ve finished connecting everything together, your set up should look l
 
 Once both servos are wired up, double-check that each wire is seated firmly in its pin and that no wires have been incorrectly wired. 
 
-**<mark>WARNING: Incorrect wiring can damage the Raspberry Pi or the servos.</mark>**
+**==WARNING: Incorrect wiring can damage the Raspberry Pi or the servos.==**
 
 Testing of this set up will be done once you reach [*Setting Up the “Ear” Motors*](https://docs.google.com/document/d/1UGiC80ufGEso83c7PnFgwOVApgB1t09mBcOQ6ye1Nho/edit?tab=t.lipwx41lbn6j)*.*  
 
