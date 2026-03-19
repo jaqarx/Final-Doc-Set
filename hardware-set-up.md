@@ -1,6 +1,6 @@
 # **Setting Up the Hardware**
 
-**WARNING: before handling the Raspberry Pi or its camera, make sure you aren’t statically charged by touching [grounded metal](https://www.wikihow.com/Ground-Yourself). Static charge may damage the small components on the Raspberry Pi or its camera.**
+**WARNING: Before handling the Raspberry Pi or its camera, make sure you aren’t statically charged by touching [grounded metal](https://www.wikihow.com/Ground-Yourself). Static charge may damage the small components on the Raspberry Pi or its camera.**
 
 **The components on the Raspberry Pi and camera module are delicate, so handle them both with care.**
 
@@ -25,10 +25,10 @@ In this tutorial, you will assemble the robot's “head” by installing the ser
 * Raspberry Pi Module 3 Camera with no ribbon cable connected to it  
 * Raspberry Pi camera case and its screws  
 * Small Philips screwdriver  
-* 3D printed parts  
-  * A “head” module  
-  * 2 “ear” attachments  
-  * A “head” stand  
+* 3D printed parts (STL files can be found in the [Required Materials](required-materials.md) page and printed using a personal 3D printer or a third-party printing service such as [Shapeways](https://www.shapeways.com/) or a local makerspace)
+  * A “head” module
+  * 2 “ear” attachments
+  * A “head” stand
 * 2 servos  
 * 2 servo horns  
 * Breadboard  

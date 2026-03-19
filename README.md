@@ -23,8 +23,9 @@ I created this project to teach myself the basics of computer vision, practice h
 
 **What you’ll need to know:**
 
-* Basic Python programming (know what variables, functions, and loops are)  
+* Basic Python programming (know what variables, functions, and loops are)
 * How to create and edit files in Visual Studio Code
+* Comfortable running commands in the terminal
 
 ### **Robotics Introduction**
 

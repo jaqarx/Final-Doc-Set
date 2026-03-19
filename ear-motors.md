@@ -37,9 +37,9 @@ If no error message appears during or after the installation process, the packag
 
 ## **Setting Up the “Ear” Movement Script**
 
-1) **Create a new file called** `servoMovement.py`
+1) **Create a new file called** `servoMovement.py` **in the same directory as your** `robotFunctions.py` **file.** Both files need to be in the same directory so they can import from each other later.
 
-2) **Import the following packages**
+2) **Import the following packages.**
 
 from gpiozero import AngularServo  
 from time import sleep

@@ -1,6 +1,6 @@
 # **Setting Up the Raspberry Pi and the Raspberry Pi Camera**
 
-**WARNING: before handling the Raspberry Pi or its camera, make sure you aren’t statically charged by touching [grounded metal](https://www.wikihow.com/Ground-Yourself). Static charge may damage the small components on the Raspberry Pi or its camera.**
+**WARNING: Before handling the Raspberry Pi or its camera, make sure you aren’t statically charged by touching [grounded metal](https://www.wikihow.com/Ground-Yourself). Static charge may damage the small components on the Raspberry Pi or its camera.**
 
 **The components on the Raspberry Pi and camera module are delicate, so handle them both with care.**
 
@@ -33,35 +33,38 @@ This tutorial goes over the setup of the Raspberry Pi 5 and its camera module.
 
 ## **Setting Up the Raspberry Pi**
 
-If you have a Raspberry Pi case, follow the instructions from whatever kit you bought to install it.
+1) **If you have a Raspberry Pi case, follow the instructions from whatever kit you bought to install it.**
 
-Follow [this tutorial](https://www.raspberrypi.com/documentation/computers/getting-started.html#installing-the-operating-system) on how to set up the microSD card using the Raspberry Pi Imager.
+2) **Follow [this tutorial](https://www.raspberrypi.com/documentation/computers/getting-started.html#installing-the-operating-system) on how to set up the microSD card using the Raspberry Pi Imager.**
 
-Once you have finished imaging the microSD card with the Raspberry Pi OS, insert the microSD card into the slot located on the underside of the Raspberry Pi 5 board. The microSD should be inserted with the metal contacts facing upwards.
+3) **Once you have finished imaging the microSD card with the Raspberry Pi OS, insert the microSD card into the slot located on the underside of the Raspberry Pi 5 board.** The microSD should be inserted with the metal contacts facing upwards.
 
 **![][image1]**
 
 ## **Installing the Raspberry Pi’s Camera**
 
-Before turning on the Raspberry Pi, install the camera by connecting the ribbon cable to the camera and one of the camera ports on the board. When inserting the ribbon cable into both the camera and the Raspberry Pi, make sure the side with the metal contacts faces towards the green surface and the USB ports on the Raspberry Pi respectively. An example can be found below:
+**Before turning on the Raspberry Pi, install the camera by connecting the ribbon cable to the camera and one of the camera ports on the board.** When inserting the ribbon cable into both the camera and the Raspberry Pi, **make sure the side with the metal contacts faces towards the green surface and the USB ports on the Raspberry Pi respectively.** An example can be found below:
 
 [**![][image2]**](https://thepihut.com/blogs/raspberry-pi-tutorials/how-to-use-two-camera-modules-with-raspberry-pi-5?srsltid=AfmBOopFcBtjRFD8BBMhaZT6p-MRrEEDG2y1PKIP1fjt5Wq8TSywrvug)
 
 Once the camera is connected, you need to verify that the Raspberry Pi detects it. To check this:
 
-1. Turn on the Raspberry Pi by plugging the USB-C cable into the power USB-C port on the Raspberry Pi and into your power brick, then plug the brick into a wall outlet. Plug the USB mouse and keyboard into any of the USB-A ports on the Raspberry Pi. Plug the micro-HDMI end of the cable into one of the micro-HDMI ports on the Raspberry Pi and plug the HDMI end into your monitor.
+1. **Plug the USB-C cable into the power USB-C port on the Raspberry Pi and into your power brick, then plug the brick into a wall outlet.**
+2. **Plug the USB mouse and keyboard into any of the USB-A ports on the Raspberry Pi.**
+3. **Plug the micro-HDMI end of the cable into one of the micro-HDMI ports on the Raspberry Pi and plug the HDMI end into your monitor.**
+4. **Turn on the Raspberry Pi.** It should boot up and display the desktop on your monitor.
 
-2. **Open the terminal by navigating to the taskbar at the top of the screen. Click the Raspberry Pi menu in the top-left corner, then click on Accessories \> Terminal.** A black screen with green text should pop up and look like the below:
+5. **Open the terminal by navigating to the taskbar at the top of the screen. Click the Raspberry Pi menu in the top-left corner, then click on Accessories \> Terminal.** A black screen with green text should pop up and look like the below:
 
 [**![][image3]**](https://magazine.raspberrypi.com/articles/terminal-help)
 
-3. **Once you’re in terminal, run the following commands:**  
-1. `sudo apt update`  
-2. `sudo apt full-upgrade`  
-3. `rpicam-hello --list-cameras`   
-4. `rpicam-hello`
+6. **Once you’re in terminal, run the following commands:**
+   1. `sudo apt update`
+   2. `sudo apt full-upgrade`
+   3. `rpicam-hello --list-cameras`
+   4. `rpicam-hello`
 
-If the camera is detected, a list of available cameras will pop up into the terminal with the camera name and its specifications after running `rpicam-hello --list-cameras` . After running `rpicam-hello`, a small preview window showing a live feed from the camera for 5 seconds before closing automatically. If you see both of these, your camera is set up correctly.
+If the camera is detected, a list of available cameras pops up in the terminal with the camera name and its specifications after running `rpicam-hello --list-cameras`. After running `rpicam-hello`, a small preview window shows a live feed from the camera for 5 seconds before closing automatically. If you see both of these, your camera is set up correctly.
 
 If running `rpicam-hello --list-cameras` and `rpicam-hello` does not output the correct behavior, try the following:
 

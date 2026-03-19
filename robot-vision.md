@@ -38,7 +38,7 @@ If no error message appears during or after the installation process, the packag
 
 1) **Create a file called [robotFunctions.py](http://robotFunctions.py).** This is the file you will be using to control the robot’s functionalities later.
 
-2) **Import the packages you installed at the top of the file, as well as the** `time` **package**
+2) **Import the packages you installed at the top of the file, as well as the** `time` **package.**
 
 import cv2   
 from picamera2 import Picamera2  
@@ -76,7 +76,7 @@ frame \= cv2.cvtColor(frame, cv2.COLOR\_RGB2GRAY)
            minSize\=(60, 60)  
        )
 
-7) **Make the program respond to what the camera sees.** If at least one face is detected, the program draws a rectangle around the first detected face on screen. If no face is detected, no rectangle will be drawn. The `cv2.rectangle` and `cv2.putText` calls are visual indicators drawn on the live camera feed so you can see what the robot is detecting in real time.
+7) **Make the program respond to what the camera sees.** If at least one face is detected, the program draws a rectangle around the first detected face on screen. If no face is detected, no rectangle is drawn. The `cv2.rectangle` and `cv2.putText` calls are visual indicators drawn on the live camera feed so you can see what the robot is detecting in real time.
 
 if len(faces) \> 0:  
            x, y, w, h \= faces\[0\]  
@@ -137,9 +137,9 @@ try:
        if cv2.waitKey(1) & 0xFF \== ord('q'):  
            break
 
-**Save the file, then run the program by running `python robotFunctions.py` in the terminal.**
-
-You should see a small preview screen pop up with the live camera feed. Point the Raspberry Pi camera towards your face. In the preview, you should see a box drawn around your face, following your face as you move around in the camera’s view like seen below:
+1) **Save the file.**
+2) **Run the program by running `python robotFunctions.py` in the terminal.**
+3) **Point the Raspberry Pi camera towards your face.** You should see a small preview screen pop up with the live camera feed. In the preview, you should see a box drawn around your face, following your face as you move around in the camera’s view like seen below:
 
 ![][image1]
 
