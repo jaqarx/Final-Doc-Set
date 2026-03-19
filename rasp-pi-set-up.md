@@ -1,9 +1,9 @@
 # **Setting Up the Raspberry Pi and the Raspberry Pi Camera**
 
-> [!WARNING]
-> Before handling the Raspberry Pi or its camera, make sure you aren’t statically charged by touching [grounded metal](https://www.wikihow.com/Ground-Yourself). Static charge may damage the small components on the Raspberry Pi or its camera.
+> <mark>[!**WARNING**]</mark>
+> **Before handling the Raspberry Pi or its camera, make sure you aren’t statically charged by touching [grounded metal](https://www.wikihow.com/Ground-Yourself). Static charge may damage the small components on the Raspberry Pi or its camera.**
 >
-> The components on the Raspberry Pi and camera module are delicate, so handle them both with care.
+> **The components on the Raspberry Pi and camera module are delicate, so handle them both with care.**
 
 | Table of Contents | Related Documents |
 |---|---|
