@@ -1,10 +1,11 @@
 # **Setting Up the Hardware**
 
 <div style="padding: 12px; background-color: #fff3cd; border-left: 4px solid #ffc107;">
-<strong>⚠️ WARNING: Before handling the Raspberry Pi or its camera, make sure you aren’t statically charged by touching <a href="https://www.wikihow.com/Ground-Yourself">grounded metal</a>. Static charge may damage the small components on the Raspberry Pi or its camera.</strong>
+<strong>⚠️ WARNING: Before handling the Raspberry Pi or its camera, make sure you aren’t statically charged by touching <a href="https://www.wikihow.com/Ground-Yourself">grounded metal</a>. Static charge may damage the small components on the Raspberry Pi or its camera.
 <br>
 <br>
-The components on the Raspberry Pi and camera module are delicate, so handle them both with care.
+The components on the Raspberry Pi and camera module are delicate, so handle them both with care.</strong>
+<br>
 </div>
 
 | Table of Contents | Related Documents |
