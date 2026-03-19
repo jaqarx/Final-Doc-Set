@@ -45,7 +45,8 @@ This tutorial goes over the setup of the Raspberry Pi 5 and its camera module.
 
 **Before turning on the Raspberry Pi, install the camera by connecting the ribbon cable to the camera and one of the camera ports on the board.** When inserting the ribbon cable into both the camera and the Raspberry Pi, **make sure the side with the metal contacts faces towards the green surface and the USB ports on the Raspberry Pi respectively.** An example can be found below:
 
-[**![][image2]**](https://thepihut.com/blogs/raspberry-pi-tutorials/how-to-use-two-camera-modules-with-raspberry-pi-5?srsltid=AfmBOopFcBtjRFD8BBMhaZT6p-MRrEEDG2y1PKIP1fjt5Wq8TSywrvug)
+![][image2]
+Photo by [ThePiHut](https://thepihut.com/blogs/raspberry-pi-tutorials/how-to-use-two-camera-modules-with-raspberry-pi-5?srsltid=AfmBOopFcBtjRFD8BBMhaZT6p-MRrEEDG2y1PKIP1fjt5Wq8TSywrvug)
 
 Once the camera is connected, you need to verify that the Raspberry Pi detects it. To check this:
 
@@ -56,7 +57,8 @@ Once the camera is connected, you need to verify that the Raspberry Pi detects i
 
 5. **Open the terminal by navigating to the taskbar at the top of the screen. Click the Raspberry Pi menu in the top-left corner, then click on Accessories \> Terminal.** A black screen with green text should pop up and look like the below:
 
-[**![][image3]**](https://magazine.raspberrypi.com/articles/terminal-help)
+![][image3]
+Photo by [Raspberry Pi](https://magazine.raspberrypi.com/articles/terminal-help)
 
 6. **Once you’re in terminal, run the following commands:**
    1. `sudo apt update`

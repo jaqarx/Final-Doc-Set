@@ -25,7 +25,7 @@ In this tutorial, you will assemble the robot's “head” by installing the ser
 * Raspberry Pi Module 3 Camera with no ribbon cable connected to it  
 * Raspberry Pi camera case and its screws  
 * Small Philips screwdriver  
-* 3D printed parts (STL files can be found in the [Required Materials](required-materials.md) page and printed using a personal 3D printer or a third-party printing service such as [Shapeways](https://www.shapeways.com/) or a local makerspace)
+* 3D printed parts (STL files can be found in the [Required Materials](required-materials.md) page and printed using a personal 3D printer, third-party printing service, or a local makerspace)
   * A “head” module
   * 2 “ear” attachments
   * A “head” stand
@@ -35,8 +35,6 @@ In this tutorial, you will assemble the robot's “head” by installing the ser
 * Power module  
 * Barrel jack power cable and brick  
 * Jumper cables
-
-## 
 
 ## **Assembling the “Head” of the Robot**
 
@@ -113,7 +111,8 @@ The servos will receive signal output from the Raspberry Pi, while it receives p
 
 **WARNING: Leave the power module off while wiring the servos to prevent damage to components.**
 
-[**![][image14]**](https://www.hackatronic.com/raspberry-pi-5-pinout-specifications-pricing-a-complete-guide/)
+![][image14]
+Photo by [Hackatronic](https://www.hackatronic.com/raspberry-pi-5-pinout-specifications-pricing-a-complete-guide/)
 
 When wiring the servos, the signal wires will connect to GPIO pins. GPIO (General Purpose Input/Output) pins allow the Raspberry Pi to send and receive signals to external components like servos. Each pin has a specific number and purpose; some carry power, some carry ground, and some can send control signals like PWM. 
 
