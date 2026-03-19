@@ -37,7 +37,9 @@ If no error message appears during or after the installation process, the packag
 
 ## **Setting Up the “Ear” Movement Script**
 
-1) **Create a new file called** `servoMovement.py` **in the same directory as your** `robotFunctions.py` **file.** Both files need to be in the same directory so they can import from each other later.
+1) **Create a new file called** `servoMovement.py` **in the same directory as your** `robotFunctions.py` **file.**
+
+Both files need to be in the same directory so they can import from each other later.
 
 2) **Import the following packages.**
 
@@ -97,7 +99,9 @@ from gpiozero import AngularServo
 from servoMovement import servoAngle, leftEar, rightEar
 ```
 
-**Replace the if else block in `robotFunctions.py` with the code below.** Take notice of the calls to the servoAngle function you defined in servoMovement.py
+**Replace the if else block in `robotFunctions.py` with the code below.**
+
+Take notice of the calls to the servoAngle function you defined in servoMovement.py
 
 ```
 if len(faces) \> 0:

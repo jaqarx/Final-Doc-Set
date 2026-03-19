@@ -49,7 +49,9 @@ In this tutorial, you will assemble the robot's “head” by installing the ser
 It should look like this afterwards:  
 ![][image3]
 
-3) **Snap the “ear” attachments onto the servo horns.** There is an indent on the back-side of the attachments for the servo horn to click into place.
+3) **Snap the “ear” attachments onto the servo horns.**
+
+There is an indent on the back-side of the attachments for the servo horn to click into place.
 
 ![][image4]
 
@@ -99,11 +101,15 @@ The servos will receive signal output from the Raspberry Pi, while it receives p
 
 **To set up the breadboard:** 
 
-1) **Grab the power module, barrel head power cable and brick, and the breadboard. Place the power module in the upper half of the breadboard and insert the power module onto the breadboard such that its \+/- signs align with the breadboard's positive and negative columns.** This ensures that the breadboard’s positive and negative terminals accurately provide power and ground respectively. It should look like this:
+1) **Grab the power module, barrel head power cable and brick, and the breadboard. Place the power module in the upper half of the breadboard and insert the power module onto the breadboard such that its \+/- signs align with the breadboard’s positive and negative columns.** It should look like this:
 
 ![][image13]
 
-2) **Move the connector under the barrel jack connector and the USB port such that the connector covers the 5V and center pin on the pins above the \+/- signs on the power module.** This ensures the power provided by the breadboard’s positive terminals is 5V. If it’s over the center and 3.3V pin, it won’t provide enough power to the servos.
+This ensures that the breadboard’s positive and negative terminals accurately provide power and ground respectively.
+
+2) **Move the connector under the barrel jack connector and the USB port such that the connector covers the 5V and center pin on the pins above the \+/- signs on the power module.**
+
+This ensures the power provided by the breadboard’s positive terminals is 5V. If it’s over the center and 3.3V pin, it won’t provide enough power to the servos.
 
 3) **Plug in the barrel head power cable and brick into the wall and into the barrel jack.** 
 
