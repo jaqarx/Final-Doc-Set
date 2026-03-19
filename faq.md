@@ -1,5 +1,14 @@
 # **Frequently Answered Questions**
 
+| Table of Contents | Related Documents |
+|---|---|
+| | [Building a Creature-like, Face-Detection Robot Using Raspberry Pi (Home Page)](README.md) |
+| | [Required Materials](required-materials.md) |
+| | [Setting up the Hardware](hardware-set-up.md) |
+| | [Setting up the Raspberry Pi and the Raspberry Pi Camera](rasp-pi-set-up.md) |
+| | [Setting up the Robot's Vision](robot-vision.md) |
+| | [Setting Up the “Ear” Motors](ear-motors.md) |
+
 **What can the robot do?** 
 
 The robot can:
