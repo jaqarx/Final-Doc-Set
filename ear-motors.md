@@ -117,9 +117,9 @@ if len(faces) \> 0:
                       cv2.FONT\_HERSHEY\_SIMPLEX, 1, (0, 0, 255), 2)
 ```
 
-**Save the file and then run `python robotFunctions.py` in the terminal.** 
-
-You should see a small preview screen pop up with the live camera feed. Point the Raspberry Pi camera towards your face. In the preview, you should see a box drawn around your face, following your face as you move around in the camera’s view. The “ears” should perk up if the robot sees your face, and your face should be boxed on the screen.
+1. **Save the file and then run `python robotFunctions.py` in the terminal.** You should see a small preview screen pop up with the live camera feed.
+2. **Point the Raspberry Pi camera towards your face.** In the preview, you should see a box drawn around your face, following your face as you move around in the camera’s view.
+3. **Verify the “ears” perk up when the robot sees your face.** Your face should also be boxed on the screen.
 
 The “ear” behavior should look similar to the behavior seen in [this video](https://www.linkedin.com/posts/enricatan_learningbydoing-mvp-studentengineer-ugcPost-7412607119331397633-oUia?utm_source=share&utm_medium=member_desktop&rcm=ACoAADxBaAcBc-s9EvLg0e5CcpeBwrDSlSofJi0).
 
