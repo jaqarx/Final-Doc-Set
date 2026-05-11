@@ -45,7 +45,7 @@ In this tutorial, you will assemble the robot's “head” by installing the ser
 
 1) **Install the servos into the “head” module by screwing them into place. Screw the servos in such that each servo sits flush with the surface of the part and does not wobble.**
 
-<div align="center">![image1]</div>div>
+<div align="center">![image1]</div>
 
 2) **Once both servos are secured to the “head” module, snap the servo horns onto the servo shafts by pressing them into place.** 
 
