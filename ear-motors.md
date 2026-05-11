@@ -43,8 +43,10 @@ Both files need to be in the same directory so they can import from each other l
 
 2) **Import the following packages.**
 
+```
 from gpiozero import AngularServo  
 from time import sleep
+```
 
 `gpiozero` is a library that makes it easy to control hardware connected to the Raspberry Pi's GPIO pins. `AngularServo` is a class within that library specifically designed for servo motors that move to a set angle. `sleep` lets us pause the program for a set amount of time, which is useful when testing servo movement.
 
