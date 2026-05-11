@@ -51,26 +51,26 @@ from time import sleep
 3) **Initialize the left and right ear motors using the code below.**  
    
 ```
-leftEar \= AngularServo(14, min\_angle\=-90, max\_angle\=90, min\_pulse\_width\=0.5/1000, max\_pulse\_width\=2.5/1000)  
-rightEar \= AngularServo(18, min\_angle\=-90, max\_angle\=90, min\_pulse\_width\=0.5/1000, max\_pulse\_width\=2.5/1000)
+leftEar = AngularServo(14, min_angle=-90, max_angle=90, min_pulse_width=0.5/1000, max_pulse_width=2.5/1000)  
+rightEar = AngularServo(18, min_angle=-90, max_angle=90, min_pulse_width=0.5/1000, max_pulse_width=2.5/1000)
 ```
 
 This creates two servo objects, one for each ear, and tells the Raspberry Pi how to communicate with them. Here is what each parameter does:
 
 * **GPIO port (`14`, `18`):** The GPIO pin number the servo's signal wire is connected to. The left ear is on pin 14 and the right ear is on pin 18, matching the wiring you did in [*Setting Up the Hardware*](https://docs.google.com/document/d/1UGiC80ufGEso83c7PnFgwOVApgB1t09mBcOQ6ye1Nho/edit?tab=t.ogwc9fc1zjum).  
-* **`min_angle` and `max_angle`:** The range of motion for the servo, in degrees. Here you set it to \-90 to 90, giving the servo a full 180 degrees of movement.  
+* **`min_angle` and `max_angle`:** The range of motion for the servo, in degrees. Here you set it to -90 to 90, giving the servo a full 180 degrees of movement.  
 * **`min_pulse_width` and `max_pulse_width`:** These tell the Raspberry Pi what PWM signal to send to move the servo to its minimum and maximum angles. The values `0.5/1000` and `2.5/1000` are standard pulse widths (in seconds) for most hobby servo motors. They correspond to 0.5ms and 2.5ms respectively.
 
 4) **Define the functions below**
 
 ```
 def servoAngle(servo, angle):  
-   servo.angle \= angle
+   servo.angle = angle
 
 def servoRun():  
-   angle \= int(input("Enter angle for left ear (0 to 180): "))  
+   angle = int(input("Enter angle for left ear (0 to 180): "))  
    servoAngle(leftEar, angle)  
-   angle2 \= int(input("Enter angle for right ear (0 to 180): "))  
+   angle2 = int(input("Enter angle for right ear (0 to 180): "))  
    servoAngle(rightEar, angle2)
 ```
 
@@ -86,7 +86,7 @@ def servoRun():
 
 1) **Run `python servoMovement.py` in the terminal.** You should see a prompt pop up asking for the angle for the left ear**.**
 
-2) **Input an angle of \-50 and press enter.** Once you give the program an input, it should move the left “ear” from the upright position you set it to in [*Setting Up the Hardware*](https://docs.google.com/document/d/1UGiC80ufGEso83c7PnFgwOVApgB1t09mBcOQ6ye1Nho/edit?tab=t.ogwc9fc1zjum) to be pointed downwards.  
+2) **Input an angle of -50 and press enter.** Once you give the program an input, it should move the left “ear” from the upright position you set it to in [*Setting Up the Hardware*](https://docs.google.com/document/d/1UGiC80ufGEso83c7PnFgwOVApgB1t09mBcOQ6ye1Nho/edit?tab=t.ogwc9fc1zjum) to be pointed downwards.  
    .  
 3) **Do the same for the right ear and input an angle of 20 to get it to the same angle as the left “ear” but mirrored.**
 
@@ -104,21 +104,21 @@ from servoMovement import servoAngle, leftEar, rightEar
 Take notice of the calls to the servoAngle function you defined in servoMovement.py
 
 ```
-if len(faces) \> 0:
+if len(faces) > 0:
 
-           servoAngle(leftEar, \-90)  
+           servoAngle(leftEar, -90)  
            servoAngle(rightEar, 90)  
-           *\# Draw rectangle around first face*  
-           x, y, w, h \= faces\[0\]  
+           *# Draw rectangle around first face*  
+           x, y, w, h = faces[0]  
            cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)  
-           cv2.putText(frame, "Face detected\!", (10, 30),  
-                      cv2.FONT\_HERSHEY\_SIMPLEX, 1, (0, 255, 0), 2)  
+           cv2.putText(frame, "Face detected!", (10, 30),  
+                      cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)  
        else:  
-           *\# No face \- ears down (sad)*  
-           servoAngle(leftEar, \-50)  
+           *# No face - ears down (sad)*  
+           servoAngle(leftEar, -50)  
            servoAngle(rightEar, 20)  
            cv2.putText(frame, "No face", (10, 30),  
-                      cv2.FONT\_HERSHEY\_SIMPLEX, 1, (0, 0, 255), 2)
+                      cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
 ```
 
 1. **Save the file and then run `python robotFunctions.py` in the terminal.** You should see a small preview screen pop up with the live camera feed.
