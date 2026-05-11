@@ -19,7 +19,7 @@
 
 I created this project to teach myself the basics of computer vision, practice hardware and software integration, and express my love for robotics and creatures. This guide is designed for beginner to intermediate programmers who want to gain hands-on skills by building their own version of this robot.
 
-<img src="[https://media.licdn.com/dms/image/v2/D562DAQEEc8HmvpzlgA/profile-treasury-image-shrink_1280_1280/B56Zt8H0kvGsAQ-/0/1767313991004?e=1774497600&v=beta&t=Nsj0xq6YUQ1kRjxhBpZy52iLfCEP23t_QDX8e9C38gg](https://media.licdn.com/dms/image/v2/D562DAQEEc8HmvpzlgA/profile-treasury-image-shrink_1280_1280/B56Zt8H0kvGsAQ-/0/1767313991004?e=1779094800&v=beta&t=X1LoGpc0pXi_uiEAUdS93hpFg2f6TXSZ2fjd1XZqgv4)" alt="Robot project" width="400">
+<img src="https://media.licdn.com/dms/image/v2/D562DAQEEc8HmvpzlgA/profile-treasury-image-shrink_1280_1280/B56Zt8H0kvGsAQ-/0/1767313991004?e=1779094800&v=beta&t=X1LoGpc0pXi_uiEAUdS93hpFg2f6TXSZ2fjd1XZqgv4" alt="Robot project" width="400">
 
 **What you’ll need to know:**
 
