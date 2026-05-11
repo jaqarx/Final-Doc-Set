@@ -54,15 +54,15 @@ The `time` package is used to create buffers in the program for processes to loa
 
 This will allow the program to use a pre-trained face detection model provided by OpenCV. It knows what a human face looks like and will be used later to scan each camera frame for faces.
 
-`face\_cascade \= cv2.CascadeClassifier(cv2.data.haarcascades \+ 'haarcascade\_frontalface\_default.xml')`
+`face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')`
 
 4) **Define and set up your camera.**
 
 This block creates an instance of the camera, configures it to capture frames in RGB format at a 640x480 resolution, starts the camera stream, and waits 2 seconds to allow the camera to warm up before it starts streaming.
 
 ```
-cam \= Picamera2()  
-config \= cam.create\_preview\_configuration(main\={"format": "RGB888", "size": (640, 480)})
+cam = Picamera2()  
+config = cam.create_preview_configuration(main={"format": "RGB888", "size": (640, 480)})
 cam.configure(config)
 cam.start() 
 time.sleep(2)
@@ -75,7 +75,7 @@ The `try` block lets you safely handle errors or interruptions (like pressing Ct
 ```
 try:  
    while True:  
-       frame \= cam.capture\_array()
+       frame = cam.capture _array()
 ```       
 
 6) **Convert the captured frame to grayscale, then scan it for faces.**
@@ -83,13 +83,13 @@ try:
 Face detection runs more efficiently on grayscale images since it only needs to analyze brightness rather than color. The `detectMultiScale` function scans the frame at multiple sizes to find faces, `scaleFactor` controls how much the image is scaled down each time, `minNeighbors` controls how confident the model needs to be before marking a detection, and `minSize` sets the smallest face size it will look for.
 
 ```        
-frame \= cv2.cvtColor(frame, cv2.COLOR\_RGB2GRAY)
+frame = cv2.cvtColor(frame, cv2.COLOR_RGB2GRAY)
         
-       faces \= face\_cascade.detectMultiScale( 
+       faces = face_cascade.detectMultiScale( 
            frame, 
-           scaleFactor\=1.1, 
-           minNeighbors\=5, 
-           minSize\=(60, 60)  
+           scaleFactor=1.1, 
+           minNeighbors=5, 
+           minSize=(60, 60)  
        )
 ```       
 
@@ -98,14 +98,14 @@ frame \= cv2.cvtColor(frame, cv2.COLOR\_RGB2GRAY)
 If at least one face is detected, the program draws a rectangle around the first detected face on screen. If no face is detected, no rectangle is drawn. The `cv2.rectangle` and `cv2.putText` calls are visual indicators drawn on the live camera feed so you can see what the robot is detecting in real time.
 
 ```
-if len(faces) \> 0:  
-           x, y, w, h \= faces\[0\]`  
+if len(faces) > 0:  
+           x, y, w, h = faces[0]`  
            cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)`  
-           cv2.putText(frame, "Face detected\!", (10, 30),`  
-                      cv2.FONT\_HERSHEY\_SIMPLEX, 1, (0, 255, 0), 2)`  
+           cv2.putText(frame, "Face detected!", (10, 30),`  
+                      cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)`  
        else:`  
            cv2.putText(frame, "No face", (10, 30),`  
-                      cv2.FONT\_HERSHEY\_SIMPLEX, 1, (0, 0, 255), 2)
+                      cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
 ```                      
 
 8) **Display the live camera feed in a window and allow the user to quit by pressing q.**
@@ -115,7 +115,7 @@ if len(faces) \> 0:
 ```
 cv2.imshow("Camera", frame)
 
-       if cv2.waitKey(1) & 0xFF \== ord('q'):  
+       if cv2.waitKey(1) & 0xFF == ord('q'):  
            break
 ```           
 
@@ -128,39 +128,39 @@ import cv2
 from picamera2 import Picamera2  
 import time
 
-face\_cascade \= cv2.CascadeClassifier(cv2.data.haarcascades \+ 'haarcascade\_frontalface\_default.xml')
+face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
-cam \= Picamera2()
+cam = Picamera2()
 
-config \= cam.create\_preview\_configuration(main\={"format": "RGB888", "size": (640, 480)})  
+config = cam.create_preview_configuration(main={"format": "RGB888", "size": (640, 480)})  
 cam.configure(config)  
 cam.start()  
 time.sleep(2)  
 
 try:  
    while True:  
-       frame \= cam.capture\_array()  
-       frame \= cv2.cvtColor(frame, cv2.COLOR\_RGB2GRAY)  
+       frame = cam.capture_array()  
+       frame = cv2.cvtColor(frame, cv2.COLOR_RGB2GRAY)  
         
-       faces \= face\_cascade.detectMultiScale(  
+       faces = face_cascade.detectMultiScale(  
            frame,  
-           scaleFactor\=1.1,  
-           minNeighbors\=5,  
-           minSize\=(60, 60)  
+           scaleFactor=1.1,  
+           minNeighbors=5,  
+           minSize=(60, 60)  
        )
 
-       if len(faces) \> 0:  
-           x, y, w, h \= faces\[0\]  
+       if len(faces) > 0:  
+           x, y, w, h = faces[0]  
            cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)  
-           cv2.putText(frame, "Face detected\!", (10, 30),  
-                      cv2.FONT\_HERSHEY\_SIMPLEX, 1, (0, 255, 0), 2)  
+           cv2.putText(frame, "Face detected!", (10, 30),  
+                      cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)  
        else:  
            cv2.putText(frame, "No face", (10, 30),  
-                      cv2.FONT\_HERSHEY\_SIMPLEX, 1, (0, 0, 255), 2)
+                      cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
 
        cv2.imshow("Camera", frame)
 
-       if cv2.waitKey(1) & 0xFF \== ord('q'):  
+       if cv2.waitKey(1) & 0xFF == ord('q'):  
            break
 ```
 
